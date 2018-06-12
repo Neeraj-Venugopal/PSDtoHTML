@@ -1,0 +1,448 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: GlacialIndifference;
+    src: url("C:/Users/Neeraj/Desktop/skippit Interview/GlacialIndifference-Regular.otf");
+}
+.mainContainer {
+    background-color:  #f6f8ff;
+    width: 1920px;  
+    height: 3840px;
+    float: left;
+    clear: both;
+}
+
+.skipitLogo {
+    width: 4.7%;
+    height: 2.9%;
+    margin: 0 auto;
+    float: left;
+    padding: 0.7% 0% 0% 2.6%; /*trbl*/
+}
+
+.home-keys{
+    float:left;
+    padding:4.9% 0% 0% 19.6%;/*trbl*/
+}
+.home-keys ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    /*overflow: hidden;*/
+    
+}
+
+.home-keys li {
+    float: left;
+}
+
+.home-keys li a {
+    color:  #3d486a;
+    display: block;
+	padding: 0px 16px;
+    text-decoration: none;
+    font-family: GlacialIndifference;
+	/* color:  black; */
+	font-size: 0.813em;/* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 1.846;/* Approximation due to font substitution */
+	text-align: right;
+}
+
+.home-keys li a:hover {
+    background-color: rgba(4, 64, 243, 0.5);
+}
+
+.ambassador {
+    border-radius: 5px;
+    width: 11%;
+    height: 1.4%;
+    float: left;
+    padding:3.3% 19.5%;
+}
+/* Percent Taken Care till */
+.firstBox {
+    position: absolute;
+    background-color:  #f6f8ff;
+    box-shadow: -6px 8px 29.4px 0.6px rgba(61, 72, 106, 0.2);
+    width: 900px;
+    height: 550px;
+    float:left;
+    top: 25%;
+    left: 25%;
+    /* margin-right:auto;
+    margin-left: 28%;
+    margin-top: 10%; */
+}
+
+.skippitText {
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 7.5rem;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 0.833;/* Approximation due to font substitution */
+    text-align: left;
+    padding: 16% 0% 0% 6.4%;
+}
+
+.appInfo {
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1rem;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 1.5;/* Approximation due to font substitution */
+    text-align: left;
+    padding: 0.6% 0% 0% 6.5%;
+}
+
+.appStore {
+    width: 144px;
+    height: 43px;
+    margin: 0 auto;
+    float: left;
+    padding: 0.6% 0% 0% 6.5%;
+}
+
+.googlePlay{
+    position: absolute;
+    width: 144px;
+    height: 43px;
+    padding: 0.6% 0% 0% 24%;
+}
+
+.iPhonePic {
+    position: absolute;
+    width: 21.5%;
+    height: 18.8%;
+    float: left;
+    top: 20%;
+    right: 0%;
+    left: 48%;
+    /* padding: 10% 0% 0% 70.5%; */
+}
+
+.sideLine1{
+    position: absolute;
+    top: 431px;
+    left: 1738px;
+}
+/* First Section Completed Above */
+
+.howItWorksImage {
+    position: absolute;
+    width: 925px;
+    height: 692px;
+    top: 1096px;
+    left: 45%;
+}
+
+.howItWorksText{
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 4.5rem;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 1.389;/* Approximation due to font substitution */
+    text-align: left;
+    top: 1096px;
+    left: 25%;    
+}
+
+.featureIcons {
+    position: absolute;
+    width: 344px;
+    height: 499px;
+    left: 23%;
+    top: 1220px;
+}
+
+.sideLine2 {
+    position: absolute;
+    top: 1500px;
+    left: 1673px;
+}
+/* Second Section Completed Above */
+
+.meetTheTeam{
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 4.5rem;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 1.389;/* Approximation due to font substitution */
+    text-align: left;
+    top: 2073px;
+    left: 25%;
+}
+
+.photo1{
+    position: absolute;
+    background-color:  #f6f8ff;
+    box-shadow: -6px 8px 29.4px 0.6px rgba(61, 72, 106, 0.2);
+    width: 370px;
+    height: 431px;
+    left: 25%;
+    top: 2185px;
+  
+}
+.teamShot1{
+    opacity: 0.1;
+    background-color:  #f6f8ff;
+    width: 317px;
+    height: 294px; 
+}
+
+.aboutTeam1{
+    position: absolute;
+    opacity: 1;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1rem;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 1.5;/* Approximation due to font substitution */
+    text-align: left;
+    top: 47px;
+    left: 55px;
+    right: 57px;
+}
+
+.name1 {
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1.001rem;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleX(1.002);/* width and height properties ommitted due to transform */
+    top: 354px;
+    left: 110px;
+}
+
+.position1{
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1.001rem;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: center;
+    transform: scaleX(1.002);/* width and height */
+    top: 383px;
+    left: 142px;
+    right: 145px;
+}
+/* Photo 1 Complete*/
+
+.photo2 {
+    position: absolute;
+    background-color:  #f6f8ff;
+    box-shadow: -6px 8px 29.4px 0.6px rgba(61, 72, 106, 0.2);
+    width: 370px;
+    height: 431px;
+    left: 46%;
+    top: 2185px;
+}
+
+.teamShot2 {
+    background-color:  #f6f8ff;
+    width: 317px;
+    height: 294px;
+}
+
+.name2 {
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1.001rem;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleX(1.002);/* width and height properties ommitted due to transform */
+    top: 354px;
+    left: 122px;
+}
+
+.position2 {
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1.001rem;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: center;
+    transform: scaleX(1.002);/* width and height properties ommitted due to transform */
+    top: 383px;
+    left: 142px;
+    right: 145px;
+}
+
+/* Photo 2 Complete*/
+
+.photo3{
+    position: absolute;
+    background-color:  #f6f8ff;
+    box-shadow: -6px 8px 29.4px 0.6px rgba(61, 72, 106, 0.2);
+    width: 370px;
+    height: 431px;
+    left: 67%;
+    top: 2185px;
+}
+
+.teamShot3 {
+    background-color:  #f6f8ff;
+    width: 335px;
+    height: 293px;
+}
+
+.name3 {
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1.001rem;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: center;
+    transform: scaleX(1.002);/* width and height properties ommitted due to transform */
+    top:353px;
+    left: 113px;
+}
+
+.position3 {    
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1.001rem;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: center;
+    transform: scaleX(1.002);/* width and height properties ommitted due to transform */
+    top: 383px;
+    left: 101px;
+    right: 104px;
+}
+/* Photo 3 Complete*/
+
+.sideLine3{
+    position: absolute;
+    top: 2353px;
+    left: 1700px;
+}
+
+/* Third Section Complete */
+
+.stayInTouch {
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 4.5rem;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 1.389;/* Approximation due to font substitution */
+    text-align: left;
+    left: 25%;
+    top: 3136px;
+}
+
+.fb {
+    position: absolute;
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    top: 3270px;
+    left:23%;
+}
+
+.ig {
+    position: absolute;
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    left: 30%;
+    top: 3270px;
+}
+
+.li {
+    position: absolute;
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    top: 3270px;
+    left: 37%;
+}
+
+.location {
+    position: absolute;
+    top: 3400px;
+    left: 23%;
+}
+
+.mailId {
+    position: absolute;
+    top: 3530px;
+    left: 23%;
+    bottom: 226px;
+}
+
+.joinTeam {
+    position: absolute;
+    background-color:  #ffffff;
+    box-shadow: -6px 8px 29.4px 0.6px rgba(61, 72, 106, 0.2);
+    width: 570px;
+    height: 370px;
+    top: 3225px;
+    left: 975px;
+}
+
+.wannaJoin {
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1rem;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 1.5;/* Approximation due to font substitution */
+    text-align: left;
+    top: 91px;
+    left: 70px;
+}
+
+.textBody {
+    position: absolute;
+    font-family: GlacialIndifference;
+    color:  #3d486a;
+    font-size: 1rem;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 1.5;/* Approximation due to font substitution */
+    text-align: left;
+    top: 136px;
+    left: 70px;
+}
+
+.learnMore {
+    position: absolute;
+    top: 208px;
+    left: 38px;
+    width: 252px;
+    height: 106px;
+}
+
+.sideLine4 {
+    position: absolute;
+    width: 149px;
+    height: 98px;
+    top: 3313px;
+    left: 1705px;
+}
+/* Section 4 Complete */
+
+.copyRight{
+    position: absolute;
+    width: 202px;
+    height: 14px;
+    top:3755px;
+    left: 859px;
+    right: 859px;
+}
+/* CSS End */
+
+.dots img {
+    position: relative;
+    width: 98.6%;
+    height: 97.2%;
+
+}
